@@ -98,17 +98,17 @@ define('package/quiqqer/history/bin/Site', [
                     dataType : 'node',
                     width    : 30
                 }, {
-                    header   : QUILocale.get('quiqqer/system', 'c_date'),
+                    header   : QUILocale.get('quiqqer/core', 'c_date'),
                     dataIndex: 'created',
                     dataType : 'string',
                     width    : 200
                 }, {
-                    header   : QUILocale.get('quiqqer/system', 'c_user'),
+                    header   : QUILocale.get('quiqqer/core', 'c_user'),
                     dataIndex: 'username',
                     dataType : 'string',
                     width    : 100
                 }, {
-                    header   : QUILocale.get('quiqqer/system', 'user_id'),
+                    header   : QUILocale.get('quiqqer/core', 'user_id'),
                     dataIndex: 'uid',
                     dataType : 'string',
                     width    : 100
