@@ -10,11 +10,11 @@
                 <section name="limits">
                     <conf name="limitPerSite">
                         <type><![CDATA[integer]]></type>
-                        <defaultvalue>20</defaultvalue>
+                        <defaultvalue>100</defaultvalue>
                     </conf>
                     <conf name="limitPerBrick">
                         <type><![CDATA[integer]]></type>
-                        <defaultvalue>20</defaultvalue>
+                        <defaultvalue>100</defaultvalue>
                     </conf>
                 </section>
             </config>
